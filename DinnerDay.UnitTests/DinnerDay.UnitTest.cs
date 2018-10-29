@@ -128,10 +128,23 @@ namespace DinnerDay_UnitTests
         }
 
         [Test]
+        public void AssignResponsibleUser_AssignNothingGetResponsibleUser_ReturnsNone()
+        {
+            Assert.That(() => uut.specificDates[0].responsiblePerson.Equals("None"));
+        }
+
+        [Test]
         public void AssignResponsibleUser_AssignADayToUserGetDaysResponsibleFor_Returns1()
         {
             uut.setPersonResponsibleForDate(uut.specificDates[0],uut.Participants[0]);
             Assert.That(uut.daysResponsibleFor[uut.Participants[0]].Equals(1));
+        }
+
+        [Test]
+        public void AssignResponsibleUser_AssignADayToUserGetResponsibleUser_ReturnsGivenName()
+        {
+            uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[0]);
+            Assert.That(() => uut.specificDates[0].responsiblePerson.Equals(uut.Participants[0]));
         }
 
         [Test]
@@ -148,6 +161,14 @@ namespace DinnerDay_UnitTests
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[0]);
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[1]);
             Assert.That(uut.daysResponsibleFor[uut.Participants[1]].Equals(1));
+        }
+
+        [Test]
+        public void AssignResponsibleUser_AssignSameDayToNewUserGetResponsiblePerson_ReturnsNewlyAssignedName()
+        {
+            uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[0]);
+            uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[1]);
+            Assert.That(() => uut.specificDates[0].responsiblePerson.Equals(uut.Participants[1]));
         }
     }
 }
