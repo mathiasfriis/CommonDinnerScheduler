@@ -122,20 +122,20 @@ namespace DinnerDay_UnitTests
         }
 
         [Test]
-        public void AssignResponsibleUser_AssignNothingGetDaysReponsibleFor_Returns0()
+        public void AssignResponsibleUser_AssignNothingGetDaysResponsibleFor_Returns0()
         {
             Assert.That(uut.daysResponsibleFor[uut.Participants[0]].Equals(0));
         }
 
         [Test]
-        public void AssignResponsibleUser_AssignADayToUserGetDaysReponsibleFor_Returns1()
+        public void AssignResponsibleUser_AssignADayToUserGetDaysResponsibleFor_Returns1()
         {
             uut.setPersonResponsibleForDate(uut.specificDates[0],uut.Participants[0]);
             Assert.That(uut.daysResponsibleFor[uut.Participants[0]].Equals(1));
         }
 
         [Test]
-        public void AssignResponsibleUser_AssignSameDayToNewUserGetDaysOldUserReponsibleFor_Returns0()
+        public void AssignResponsibleUser_AssignSameDayToNewUserGetDaysOldUserResponsibleFor_Returns0()
         {
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[0]);
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[1]);
@@ -143,7 +143,7 @@ namespace DinnerDay_UnitTests
         }
 
         [Test]
-        public void AssignResponsibleUser_AssignSameDayToNewUserGetDaysNewUserReponsibleFor_Returns1()
+        public void AssignResponsibleUser_AssignSameDayToNewUserGetDaysNewUserResponsibleFor_Returns1()
         {
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[0]);
             uut.setPersonResponsibleForDate(uut.specificDates[0], uut.Participants[1]);
