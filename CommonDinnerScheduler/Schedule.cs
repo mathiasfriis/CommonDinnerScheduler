@@ -8,5 +8,6 @@ namespace CommonDinnerScheduler
 {
     class Schedule
     {
+        private List<DinnerDay> dinnerDays;
     }
 }

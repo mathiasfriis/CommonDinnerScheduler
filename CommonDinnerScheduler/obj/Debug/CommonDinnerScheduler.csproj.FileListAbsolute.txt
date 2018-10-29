@@ -4,3 +4,9 @@ C:\Users\Mathi\source\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debu
 C:\Users\Mathi\source\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.csproj.CoreCompileInputs.cache
 C:\Users\Mathi\source\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.dll
 C:\Users\Mathi\source\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.pdb
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\bin\Debug\CommonDinnerScheduler.dll
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\bin\Debug\CommonDinnerScheduler.pdb
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.csprojAssemblyReference.cache
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.dll
+C:\Users\Mathi\repos\CommonDinnerScheduler\CommonDinnerScheduler\obj\Debug\CommonDinnerScheduler.pdb
