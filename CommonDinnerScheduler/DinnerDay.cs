@@ -10,7 +10,7 @@ namespace CommonDinnerScheduler
     public class DinnerDay
     {
         public List<String> Participants;
-        private DayOfWeek dayOfWeek { get; set; }
+        public DayOfWeek dayOfWeek { get; set; }
         private DateTime startDate { get; set; }
         private DateTime endDate { get; set; }
 
