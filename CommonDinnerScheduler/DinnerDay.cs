@@ -40,7 +40,6 @@ namespace CommonDinnerScheduler
                 specificDates.Add(new CommonDinnerDate(indexDate));
                 indexDate=indexDate.AddDays(7);
             } while ((DateTime.Compare(indexDate,endDate)<=0)&& (indexDate.DayOfWeek==dayOfWeek)); //As long as index date is earlier or same as endDate
-
         }
 
         public bool AddParticipant(String name)
@@ -84,6 +83,11 @@ namespace CommonDinnerScheduler
             return Participants.Count;
         }
 
+        public int GetNumberOfSpecificDate()
+        {
+            return specificDates.Count;
+        }
+
         public void setPersonResponsibleForDate(CommonDinnerDate date, String name)
         {
             //Check if name is in list of participants
@@ -114,6 +118,11 @@ namespace CommonDinnerScheduler
                 }
                 
             }
+        }
+
+        public CommonDinnerDate getNextUnassignedDate()
+        {
+            return specificDates.Find(x => x.responsiblePerson == "None");
         }
     }
 }

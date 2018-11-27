@@ -1,0 +1,10 @@
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\bin\Debug\CommonDinnerScheduler.dll
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\bin\Debug\CommonDinnerScheduler.pdb
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\Mathi\repos\CommonDinnerScheduler\ConsoleApp\obj\Debug\ConsoleApp.pdb

@@ -9,7 +9,7 @@ namespace CommonDinnerScheduler
     public class CommonDinnerDate
     {
         public String responsiblePerson { get; set; }
-        private DateTime date { get; set; }
+        public DateTime date { get; set; }
 
         public CommonDinnerDate(DateTime Date)
         {

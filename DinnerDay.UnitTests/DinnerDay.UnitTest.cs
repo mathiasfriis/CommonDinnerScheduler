@@ -20,7 +20,7 @@ namespace DinnerDay_UnitTests
         {
             //today = DateTime.Today;
             today = new DateTime(2018,10,29); //Monday 29th of October 2018
-            threeWeeksFromNow=DateTime.Today.AddDays(3*7);
+            threeWeeksFromNow=DateTime.Today.AddDays(3*7-1);
             uut = new DinnerDay(DayOfWeek.Monday, today, threeWeeksFromNow);
             uut.AddParticipant("340");
             uut.AddParticipant("341");
